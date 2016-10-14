@@ -1,1 +1,5 @@
-<a class="btn btn-large btn-block btn-primary" [href]="detail">{{kana.Hiragana()}}</a>
+<ul class="list-group" [style.width]="width?width:normalWidth">
+	<li class="list-group-item list-group-item-success">{{kana.Rome()}}</li>
+	<li class="list-group-item list-group-item-info">{{kana.Hiragana()}}</li>
+	<li class="list-group-item list-group-item-warning">{{kana.Katakana()}}</li>
+</ul>
