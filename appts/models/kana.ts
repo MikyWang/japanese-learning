@@ -1,12 +1,23 @@
 export class Kana {
-    constructor(private rome: string, private hiragana: string, private katakana: string) { }
-    public Rome(): string {
-        return this.rome;
+    private _rome: string;
+    private _hiragana: string;
+    private _katakana: string;
+    constructor(rome: string, hiragana: string, katakana: string) {
+        this._rome = rome;
+        this._hiragana = hiragana;
+        this._katakana = katakana;
     }
-    public Hiragana(): string {
-        return this.hiragana;
+    public get rome(): string {
+        return this._rome;
     }
-    public Katakana(): string {
-        return this.katakana;
+
+    public get hiragana(): string {
+        return this._hiragana;
     }
+
+    public get katakana(): string {
+        return this._katakana;
+    }
+
+
 }
