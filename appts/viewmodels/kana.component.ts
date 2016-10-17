@@ -3,8 +3,8 @@ import { Kana } from '../models/kana';
 
 @Component({
   selector: 'kana',
-  templateUrl: '../../views/kana.html',
-  styleUrls: ['../../styles/kana.css']
+  templateUrl: '/views/kana.html',
+  styleUrls: ['/styles/kana.css']
 })
 export class KanaComponent {
   constructor() { }
