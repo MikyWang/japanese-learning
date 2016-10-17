@@ -3,8 +3,8 @@ import { Kana } from '../models/kana'
 @Component({
   selector: 'my-app',
   templateUrl: '/views/app.html',
-  styleUrls: ['/styles/app.css']
+  styleUrls: ['../../styles/app.css']
 })
 export class AppComponent {
-  kana: Kana = new Kana('a', 'sa', 's', "a");
+  kana: Kana = new Kana(1, 'a', 'sa', 's', "a");
 }
