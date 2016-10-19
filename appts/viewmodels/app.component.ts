@@ -6,5 +6,4 @@ import { Kana } from '../models/kana'
   styleUrls: ['../../styles/app.css']
 })
 export class AppComponent {
-  kana: Kana = new Kana(1, 'a', 'sa', 's', "a");
 }

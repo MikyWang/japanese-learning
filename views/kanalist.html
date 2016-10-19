@@ -1,0 +1,5 @@
+<div class="row" *ngFor="let line of kanas">
+    <div *ngFor="let kana of line" class="col-xs-2 kana">
+        <kana [kana]="kana"></kana>
+    </div>
+</div>

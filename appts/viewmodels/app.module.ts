@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { KanaSevice } from './../services/kanaService';
+import { KanasComponent } from './fiftyKanas.component';
 
 @NgModule({
   imports:
@@ -22,7 +23,8 @@ import { KanaSevice } from './../services/kanaService';
   [
     AppComponent,
     KanaComponent,
-    HomeComponent
+    HomeComponent,
+    KanasComponent
   ],
   providers: [KanaSevice],
   bootstrap: [AppComponent]
